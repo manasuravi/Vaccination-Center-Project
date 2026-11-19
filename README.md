@@ -275,7 +275,7 @@ It demonstrates frontend-backend integration, REST API development, database con
 
 ## 👨‍💻 Developer
 
-**Manas**
+**Ravi**
 
 GitHub: [@manasuravi](https://github.com/manasuravi)
 
