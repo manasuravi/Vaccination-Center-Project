@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/admin/centers/{{centerId}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "availableSlots": 45,
+      "status": "ACTIVE"
+    }
+order: 7000

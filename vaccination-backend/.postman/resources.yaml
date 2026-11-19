@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 28f590b8-e799-4224-89e7-1389692ffa7f
+
+localResources:
+  collections:
+    - ../vaccination-backend/postman/Vaccination-Center-API.postman_collection.json

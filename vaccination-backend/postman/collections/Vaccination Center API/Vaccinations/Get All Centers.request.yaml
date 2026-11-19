@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/vaccinations/centers"
+method: GET
+order: 1000

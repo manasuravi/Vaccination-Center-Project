@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/vaccinations/book"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "userId": 1,
+      "vaccinationDate": "2026-09-20"
+    }
+order: 4000

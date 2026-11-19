@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/vaccinations/{{vaccinationId}}"
+method: DELETE
+order: 8000

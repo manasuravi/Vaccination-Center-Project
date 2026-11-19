@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/api/admin/centers?pinCode=500072"
+method: GET
+queryParams:
+  pinCode: "500072"
+order: 5000

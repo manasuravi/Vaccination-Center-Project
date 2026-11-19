@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/vaccinations/user/{{userId}}"
+method: GET
+order: 6000

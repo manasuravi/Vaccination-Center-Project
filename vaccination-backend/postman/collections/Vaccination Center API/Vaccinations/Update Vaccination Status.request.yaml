@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseUrl}}/api/vaccinations/{{vaccinationId}}/status"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "status": "COMPLETED"
+    }
+order: 7000

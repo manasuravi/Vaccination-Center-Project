@@ -1,0 +1,7 @@
+$kind: collection
+description: Beginner training collection for the Vaccination Center Express + MySQL backend. No JWT is used.
+variables:
+  baseUrl: http://localhost:5000
+  userId: "1"
+  centerId: "1"
+  vaccinationId: "1"

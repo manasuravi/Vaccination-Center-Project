@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/users/{{userId}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "phone": "9876500000",
+      "pinCode": "500072"
+    }
+order: 5000

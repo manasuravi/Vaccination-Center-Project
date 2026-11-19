@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{baseUrl}}/api/admin/centers"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Community Health Center",
+      "address": "Kukatpally",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pinCode": "500072",
+      "contactNumber": "04055556666",
+      "vaccineName": "Covishield",
+      "availableSlots": 30,
+      "status": "ACTIVE"
+    }
+order: 3000
